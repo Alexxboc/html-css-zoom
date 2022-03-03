@@ -1,0 +1,17 @@
+/* Variables */
+:root {
+    --black: #000000;
+    --green: #47C305;
+    --dark-gray: #4A4A4A;
+    --red: #DC1C18;
+    --white: #FFFFFF;
+}
+
+
+
+/* Common rules */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
