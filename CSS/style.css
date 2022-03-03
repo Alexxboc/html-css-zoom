@@ -1,10 +1,30 @@
+/* Icons */
+
+/* Microphone: <i class="fa-solid fa-microphone"></i>
+Microphone slash: <i class="fa-solid fa-microphone-slash"></i>
+Video: <i class="fa-solid fa-video"></i>
+User plus: <i class="fa-solid fa-user-plus"></i>
+User group: <i class="fa-solid fa-user-group"></i>
+Chart column: <i class="fa-solid fa-chart-column"></i>
+Share from square: <i class="fa-solid fa-share-from-square"></i>
+Chevron up: <i class="fa-solid fa-chevron-up"></i>
+Chat: <i class="fa-solid fa-comment"></i>
+Record: <i class="fa-solid fa-record-vinyl"></i>
+Table: <i class="fa-solid fa-table-cells-large"></i>
+Circle: <i class="fa-solid fa-period"></i> */
+/* Table 2: <i class="fa-solid fa-table-cells"></i>
+Maximize: <i class="fa-solid fa-maximize"></i> */
+
+
 /* Variables */
 :root {
     --black: #000000;
     --green: #47C305;
-    --dark-gray: #4A4A4A;
+    --dark-gray: #222222;
     --red: #DC1C18;
     --white: #FFFFFF;
+    --lighter-gray: #4A4A4A;
+    
 }
 
 
@@ -15,3 +35,91 @@
     padding: 0;
     box-sizing: border-box;
 }
+div {
+    color: var(--white);
+}
+
+i {
+    color: var(--white);
+}
+
+a {
+    text-decoration: none;
+    color: var(--white)
+}
+
+/* Utility */
+
+.flex {
+    display: flex;
+}
+
+.unstyled {
+    list-style: none;
+}
+
+/* Main */
+main {
+    height: calc(100vh - 100px);
+    background-color: var(--black);
+}
+
+.view {
+    font-size: 20px;
+    position:fixed;
+    top:15px;
+    right: 15px;
+    column-gap: 10px;
+}
+
+.view .icon {
+    background-color: #4A4A4A;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.album {
+    margin:auto;
+    width: 90vw;
+    height: calc(100vh - 250px);
+    background-color: red;
+    
+}
+
+.icon_40 {
+    font-size: 40px;
+}
+
+.rg_10{
+    row-gap: 10px;
+}
+
+/* Footer */
+
+footer {
+    height: 100px;
+    background-color: var(--dark-gray);
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+
+
+.main_menu {
+    width: 40%;
+    height: 100%;
+}
+
+.audio_video {
+    height: 100%;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.microphone, .video {
+    flex-direction: column;
+    text-align: center;
+    font-size: 20px;
+}
+
+

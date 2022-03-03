@@ -7,11 +7,22 @@
     <title>Zoom</title>
 
     <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
 </head>
 <body>
     <main id="site_main">
-        <div class="view">
-
+        <div class="view flex">
+            <div class="icon text">
+                <i class="fa-solid fa-table-cells"></i>
+                <span>Speaker View</span>
+            </div>
+            <!-- /.icon -->
+            
+            <div class="icon">
+                <i class="fa-solid fa-maximize"></i> 
+            </div>
+            <!-- /.icon -->
         </div>
         <!-- /.view -->
         <div class="album">
@@ -24,17 +35,34 @@
     </main>
     <!-- /#site_main -->
 
-    <footer id="site_footer">
-       <div class="audio_video">
-
+    <footer id="site_footer flex">
+       <div class="audio_video flex">
+            <div class="microphone flex rg_10">
+                <i class="fa-solid fa-microphone fa icon_40"></i>
+                <span>Mute</span>
+            </div>
+            <!-- /.microphone -->
+            <div class="chevron">
+                <i class="fa-solid fa-chevron-up"></i>
+            </div>
+            <!-- /.chevron -->
+            <div class="video flex rg_10">
+                <i class="fa-solid fa-video icon_40"></i>
+                <span>Stop Video</span>
+            </div>
+            <!-- /.video -->
+            <div class="chevron">
+                <i class="fa-solid fa-chevron-up"></i>
+            </div>
+            <!-- /.chevron -->
        </div>
        <!-- /.audio_video -->
-       <nav class="main_menu">
-
+       <nav class="main_menu flex">
+       
        </nav>
        <!-- /.main_menu -->
        <div class="end_meeting">
-           
+
        </div>
        <!-- /.end_meeting -->
     </footer>
