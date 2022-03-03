@@ -48,6 +48,10 @@ a {
     color: var(--white)
 }
 
+img {
+    max-width: 100%;
+}
+
 /* Utility */
 
 .flex {
@@ -101,12 +105,35 @@ main {
     width: 90vw;
     height: calc(100vh - 250px);
     background-color: red;
-    
+    flex-wrap: wrap;
 }
+
+/* .album {
+    width: calc(100% / 7)
+} */
 
 .icon_40 {
     font-size: 40px;
 }
+
+.mute_user {
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+}
+
+.mute_user .icon {
+    padding: 5px;
+    background-color: #4a4a4a8f;
+}
+
+.card {
+    width: calc(100% / 7);
+    position: relative;
+}
+
+
+    
 
 
 
