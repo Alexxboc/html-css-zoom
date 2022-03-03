@@ -68,7 +68,7 @@ img {
 }
 
 .fs_20 {
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .rg_10{
@@ -87,7 +87,7 @@ main {
 }
 
 .view {
-    font-size: 20px;
+    font-size: 10px;
     position:fixed;
     top:15px;
     right: 15px;
@@ -96,23 +96,24 @@ main {
 
 .view .icon {
     background-color: #4A4A4A;
-    padding: 10px;
-    border-radius: 10px;
+    padding: 5px;
+    border-radius: 5px;
 }
 
 .album {
     margin:auto;
     width: 90vw;
-    height: calc(100vh - 250px);
+    height: 80vh;
     flex-wrap: wrap;
+    column-gap: 5px;
+    row-gap: 10px;
+    padding-top: 50px;
+    
 }
 
-/* .album {
-    width: calc(100% / 7)
-} */
 
 .icon_40 {
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .mute_user {
@@ -127,16 +128,16 @@ main {
 }
 
 .card {
-    width: calc(100% / 7 - 35px);
-    height: calc(100% / 5 - 100px);
+    width: calc(100% / 7 - 5px);
+    height: calc(100% / 10px);
     position: relative;
     background-image: url(https://i.picsum.photos/id/1005/5760/3840.jpg?hmac=2acSJCOwz9q_dKtDZdSB-OIK1HUcwBeXco_RMMTUgfY);
     background-size: cover;
+    background-position: center;
 }
 
 
     
-
 
 
 /* Footer */
