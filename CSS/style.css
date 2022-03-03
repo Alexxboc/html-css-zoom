@@ -123,6 +123,7 @@ main {
 }
 
 .mute_user .icon {
+    font-size: 15px;
     padding: 5px;
     background-color: #4a4a4a8f;
 }
