@@ -104,7 +104,6 @@ main {
     margin:auto;
     width: 90vw;
     height: calc(100vh - 250px);
-    background-color: red;
     flex-wrap: wrap;
 }
 
@@ -119,7 +118,7 @@ main {
 .mute_user {
     position: absolute;
     left: 0;
-    bottom: 30px;
+    bottom: 0;
 }
 
 .mute_user .icon {
@@ -128,8 +127,11 @@ main {
 }
 
 .card {
-    width: calc(100% / 7);
+    width: calc(100% / 7 - 35px);
+    height: calc(100% / 5 - 100px);
     position: relative;
+    background-image: url(https://i.picsum.photos/id/1005/5760/3840.jpg?hmac=2acSJCOwz9q_dKtDZdSB-OIK1HUcwBeXco_RMMTUgfY);
+    background-size: cover;
 }
 
 
