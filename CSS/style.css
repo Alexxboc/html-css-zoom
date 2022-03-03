@@ -87,7 +87,7 @@ main {
 }
 
 .view {
-    font-size: 10px;
+    font-size: 15px;
     position:fixed;
     top:15px;
     right: 15px;
@@ -149,7 +149,7 @@ footer {
 }
 
 .audio_video {
-    width: 10%;
+    width: 15%;
     margin-left: 10px;
 }
 
@@ -159,7 +159,7 @@ footer {
 }
 
 .end_meeting {
-    width: 10%;
+    width: 5%;
     color: var(--red);
     background-color: var(--lighter-gray);
     font-weight: bold;
